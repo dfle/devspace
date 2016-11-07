@@ -6,6 +6,7 @@ let path = require('path')
 let cors = require('cors')
 let rootRouter = require('./routers')
 let db = require('./db')
+let cache = require('./cache')
 let PORT = process.env.PORT || 8000
 
 app.use(logger('dev'))
